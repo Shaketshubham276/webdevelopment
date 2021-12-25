@@ -1,0 +1,79 @@
+#about,#services,#tours{
+    height: 80vh;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    
+    background: url("2.jpeg") no-repeat center center/cover;
+    opacity: .8;
+    height: 100%;
+    z-index: -2;
+}
+#home{
+    height: 100vh;
+}
+
+.show-links{
+    height: 200px;
+}
+.nav-toggle{
+    visibility: hidden;
+}
+.links-container{
+    height: auto !important;
+}
+
+#nav-center{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+}
+@media only screen and(max-width:800px){
+    .links-container{
+        height: 0;
+        overflow: hidden;
+
+    }
+    .nav-toggle{
+        visibility:visible;
+    }
+}
+.links{
+    display: flex;
+    flex-direction:row;
+}
+li{
+    list-style: none;
+    padding-left: 18px;
+    margin-top: 30px;
+    font-size: 29px;
+    padding-right: 18px;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+
+}
+.image1{
+    height: 100px;
+
+}
+.show-link{
+    visibility: visible;
+    z-index: 1000;
+}
+
+
+

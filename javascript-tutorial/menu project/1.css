@@ -1,0 +1,9 @@
+.menu .section-center .menu-item .photo{
+    width: 100px;
+    height: 80px;
+}
+.menu .btn-container .filter-btn{
+    cursor: pointer;
+    margin-bottom: 10px ;
+
+}

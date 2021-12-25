@@ -1,0 +1,7 @@
+.deadline{
+    display: flex;
+}
+.deadline-format{
+    padding: 10px;
+    margin: 10px;
+}
